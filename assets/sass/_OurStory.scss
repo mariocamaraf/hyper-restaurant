@@ -1,0 +1,37 @@
+#OurStory{
+  padding: 100px 0;
+  .quote{
+    color: $paragraphColor;
+    margin: 0.5rem 0 1.5rem;
+
+    strong{
+      color: $black;
+      font-weight: 700;
+      }
+    }
+    .reserve-btn {
+      font-family: $displayFont;
+      padding: 20px 40px;
+      display: inline-block;
+      border: 1px solid $black;
+      text-align: center;
+      text-decoration: none;
+      color: $black;
+      text-transform: uppercase;
+      transition: all .2s ease-in-out;
+
+      &:hover{
+        background: $red;
+        color: white;
+      }
+  }
+    .video-img{
+      max-width: 400px;
+      height: 550px;
+      background: linear-gradient(135deg, rgba(0, 0, 0, .2) 0,#002d77 100%);
+      background: linear-gradient(135deg, rgba(0, 0, 0, .4) 0,#000 100%), url("http://www.cooksmarts.com/wp-content/uploads/2015/09/Landing-Page-Cooking-Guides-Jess-Kitchen-Chopping-1060x650.jpg");
+      background-position: right;
+      background-size: cover;
+      margin: 0 auto;
+    }
+}
